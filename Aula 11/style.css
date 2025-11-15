@@ -1,0 +1,54 @@
+@charset "UTF-8"
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    place-content: center;
+    place-items: center;
+    margin: auto;
+
+}
+section{
+    background-color: white;
+    width: 50vw;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    justify-content: center;
+    place-content: center;
+    align-items: center;
+}
+
+h1{
+    padding: 30px;
+    font-size: 2.2em;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+div#num{
+    background-color: whitesmoke;
+    width: 80%;
+    padding: 10px;
+}
+
+div#resultado{
+    background-color: whitesmoke;
+    width: 80%;
+    padding: 0px 10px;
+}
+
+div#num > input{
+    width: 200px;
+    margin: 10px;
+}
+
